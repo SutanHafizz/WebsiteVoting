@@ -1,0 +1,523 @@
+<html>
+
+<head>
+    <title>
+        Web Voting Project 3TD
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        
+        .nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content h2 {
+            margin-top: 0;
+        }
+        
+        .vote-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .vote-item:last-child {
+            border-bottom: none;
+        }
+        
+        .vote-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        
+        .vote-item .details {
+            flex-grow: 1;
+        }
+        
+        .vote-item .details h3 {
+            margin: 0;
+        }
+        
+        .vote-item .details p {
+            margin: 5px 0 0;
+            color: #666;
+        }
+        
+        .vote-item .vote-buttons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .vote-item .vote-buttons button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .vote-item .vote-buttons button:hover {
+            background-color: #218838;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #f2f2f2;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                Web Voting Project 3TD
+            </h1>
+        </div>
+        <div class="nav">
+            <a href="#home">
+     Home
+    </a>
+            <a href="#about">
+     About
+    </a>
+            <a href="#contact">
+     Contact
+    </a>
+        </div>
+        <div class="content">
+            <h2>
+                Choose Your Favorite Person
+            </h2>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 1" src="Hafizdarin.jpeg" />
+                <div class="details">
+                    <h3>
+                        Sutan Hafizd DT Nasution
+                    </h3>
+                    <p>
+                        Tolong Kaki Saya Sakit
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 2" src="jangan masak air di panci yg bolong.jpg" />
+                <div class="details">
+                    <h3>
+                        Zakky Prayata Pramundito
+                    </h3>
+                    <p>
+                        jangan masak air di panci yg bolong
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 3" src="Pada akhirnya Takdir Allah itu selalu baik, walau terkadang perlu air mata untuk menerimanya.jpg" />
+                <div class="details">
+                    <h3>
+                        Ali Imron
+                    </h3>
+                    <p>
+                        Pada akhirnya Takdir Allah itu selalu baik, walau terkadang perlu air mata untuk menerimanya
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 4" src="sedihku belum usai, ceritamu dengan yang baru sudah dimulai.jpg" />
+                <div class="details">
+                    <h3>
+                        Fadli Alyus
+                    </h3>
+                    <p>
+                        sedihku belum usai, ceritamu dengan yang baru sudah dimulai
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Menuju tak terbatas, dan melampauinya.jpeg" />
+                <div class="details">
+                    <h3>
+                        M.Anugrah Rafif Athullah
+                    </h3>
+                    <p>
+                        Menuju tak terbatas, dan melampauinya
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Duo Trio.jpeg" />
+                <div class="details">
+                    <h3>
+                        Muhammad Fassa Albukhari
+                    </h3>
+                    <p>
+                        Duo Trio
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button></div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Tiada Hari Tanpa Masalah.jpeg" />
+                <div class="details">
+                    <h3>
+                        Muhammad Alfarizi Sadewa
+                    </h3>
+                    <p>
+                        Tiada Hari Tanpa Masalah
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+       Vote
+      </button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="https://placehold.co/50x50" />
+                <div class="details">
+                    <h3>
+                        Muhammad Valdi Ajinata
+                    </h3>
+                    <p>
+                        Short description of Candidate 5
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Listen, smile, agree, and then do whatever the f you were gonna do anyway -Robert Downey JR.JPEG" />
+                <div class="details">
+                    <h3>
+                        Nayra Dwi Kania
+                    </h3>
+                    <p>
+                        Listen, smile, agree, and then do whatever the f you were gonna do anyway -Robert Downey JR
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Kalo ga turu, ya nongki.jpeg" />
+                <div class="details">
+                    <h3>
+                        Devita Maharani
+                    </h3>
+                    <p>
+                        Kalo ga turu, ya nongki
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="bangun dan bersyukur.jpg" />
+                <div class="details">
+                    <h3>
+                        Haikal Kemal Pasha
+                    </h3>
+                    <p>
+                        bangun dan bersyukur
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="AWEK AWEK.jpg" />
+                <div class="details">
+                    <h3>
+                        Rifqi Albaaqi
+                    </h3>
+                    <p>
+                        AWEK AWEK
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Always Remember To God -Ridwan..jpg" />
+                <div class="details">
+                    <h3>
+                        R.M Ridwan
+                    </h3>
+                    <p>
+                        Always Remember To God -Ridwan.
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Kesuksesan berawal dari mimpi. Makanya ayo tidur..jpg" />
+                <div class="details">
+                    <h3>
+                        Mona Saprina
+                    </h3>
+                    <p>
+                        Kesuksesan berawal dari mimpi. Makanya ayo tidur.
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="bisa memaafkan, namun tidak harus melupakan..jpg" />
+                <div class="details">
+                    <h3>
+                        Tiara Rizky Nur Rochma
+                    </h3>
+                    <p>
+                        bisa memaafkan, namun tidak harus melupakan.
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Senja yang kehilangan langitnya namun tetap menjaga keindahan nya.jpeg" />
+                <div class="details">
+                    <h3>
+                        Sania Dwi Anjani
+                    </h3>
+                    <p>
+                        Senja yang kehilangan langitnya namun tetap menjaga keindahan nya
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="IMG_20240127_230619_331.jpg" />
+                <div class="details">
+                    <h3>
+                        Bunga Rahbertha
+                    </h3>
+                    <p>
+                        Short description of Candidate 5
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Semangat aja kuliah nyaaa.jpg" />
+                <div class="details">
+                    <h3>
+                        Erin Ayu Sukawati
+                    </h3>
+                    <p>
+                        Semangat aja kuliah nyaaa.jpg
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="https://placehold.co/50x50" />
+                <div class="details">
+                    <h3>
+                        Lia Herawati
+                    </h3>
+                    <p>
+                        Short description of Candidate 5
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Not Everyone Is Important To Me.jpeg" />
+                <div class="details">
+                    <h3>
+                        Hotmauli Gracia Simatupang
+                    </h3>
+                    <p>
+                        Not Everyone Is Important To Me
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="_Kalau saja mulutmu itu BPKB.jpg" />
+                <div class="details">
+                    <h3>
+                        Pidia Sabila Apriani
+                    </h3>
+                    <p>
+                        _Kalau saja mulutmu itu BPKB, pasti sudah kugadaikan.
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="farhan.jpeg" />
+                <div class="details">
+                    <h3>
+                        M. Farhan Faqih
+                    </h3>
+                    <p>
+                        Tetap Bertahan Hidup
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+            <div class="vote-item">
+                <img alt="Portrait of Candidate 5" src="Duo Trio.jpeg" />
+                <div class="details">
+                    <h3>
+                        M. Farid Adhitya
+                    </h3>
+                    <p>
+                        Trio Duo
+                    </p>
+                </div>
+                <div class="vote-buttons">
+                    <button>
+Vote
+</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                © Web Voting Project 3 TD. All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
